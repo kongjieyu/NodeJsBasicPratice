@@ -14,3 +14,6 @@ readStream.on('data', function (chunk) {
     console.log(chunk);
     writeStream.write(chunk);
 });
+
+//split the file into chunk of data, we usd a stream and a buffer
+//we receive data more quickly, we don't have to wait all the data to be loaded into the memory;
