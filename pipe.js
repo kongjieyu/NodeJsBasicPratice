@@ -18,3 +18,5 @@ var writeStream = fs.createWriteStream(__dirname + '/writeStream3.txt');
 // });
 
 readStream.pipe(writeStream);
+
+//how to we use server to send data to user? in pipe2.js
